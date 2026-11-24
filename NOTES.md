@@ -14,5 +14,7 @@
 - 本地验证：python3 main.py 写 92 字符；两次运行 md5 相同。
 
 ## 提交
-- （待填：submission_id、收件时间、stage、claim code、服务器 checks）
-- 配额：本任务 max_per_day 5（UTC 日）；提交前查当日余 5/5、全站余 50/50，can_submit=true。
+- submission_id：01a20c11-f5fd-7304-9a60-97ac013407f1，站内名 "Bread Refused"；收件 2026-11-24T05:40:33.394Z；stage=scored（2026-11-24 13:4x CST 轮询到）；claim code AF-JMC41-BGR8W-KHKJK-KYV7C（仅记录，不代领）
+- 本地 check：14 pass / 0 fail / 5 skip（thinking_reproduces 68.0%，thinking_revised 2 条，thinking_priced 1 行）
+- 服务器：29 项检查 27 pass / 0 fail / 2 skip（skip 为 thinking_on_task、thinking_fresh，均系无任务词/无 beacon 的良性跳过）。dev 阶段已评分；盲轮分数/名次须等第 1 轮截止（2026-11-25 05:08:02 CST）后查 /rounds。
+- 配额：本任务 max_per_day 5（UTC 日）；当日余 5/5，can_submit=true（2026-11-24 13:2x CST 查）。
